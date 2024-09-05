@@ -25,6 +25,10 @@ filtered_data = data[(data["Region"].isin(selected_region)) & (data["State"].isi
 # Interactive Correlation Heatmap
 st.title("Covid-19 Unemployment Analysis")
 st.text("""
+        Hi! This is Mitaali.
+        Welcome to this unemployment web app I've built using Streamlit.
+        """)
+st.text("""
         This is an interactive app that allows you to analyze unemployment rate in India 
         during Covid. You can choose from multiple states and regions and understand how the
         data changes as you filter the data according to your choice.
@@ -84,4 +88,9 @@ else:
 st.text("""
         Thank you for visiting.
         Please come back soon.
+        """)
+
+st.text("""
+        - Mitaali Dayal
+          dayalmitaali25@gmail.com
         """)
